@@ -3,3 +3,28 @@
 .bg_pink{
     background-color: var(--color-principal);
 }
+.form_control{
+    border-radius: var(--border-radius);
+}
+.mg_cero_color{
+    margin: 0%;
+    color: var(--color-black);
+}
+.text_color{
+    color: var(--color-secundary);
+}
+.text_underline{
+    text-decoration: underline;
+    color: var(--color-secundary);
+}
+.font_size{
+    font-size: 20px;
+    color: var(--color-white);
+}
+.btn_primary{
+    background-color: var(--color-buttom);
+    border-color: var(--color-secundary);
+}
+.btn_primary:hover{
+    background-color: var(--color-secundary);
+}
