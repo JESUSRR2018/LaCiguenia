@@ -1,12 +1,39 @@
 :root{
-    --color-principal: #F2ACB2;
-    --color-secundary: #30348C;
-    --color-buttom: #7C7FBA;
-    --color-black: #000000;
-    --color-white: #ffffff;
-    --border-radius: 20px;
+    --color_black: #000000;
+    --color_white: #ffffff;
+
+    --color_first: #F2ACB2;
+    --color_second: #30348C;
+    --color_third: #FDE8EA;
+
+    --color_buttom: #7C7FBA;
+    --color_buttom_hover: #30348C;
+
+    --border_radius_one: 18px;
+
+    --font_size: calc(0.3em + 0.3vw);
+    --font_size_one: calc(0.5em + 0.5vw);
+    --font_size_two: calc(0.7em + 0.7vw);
+    --font_size_three: calc(1em + 1vw);
+    --font_size_four: calc(1.3em + 1.3vw);
+    --font_size_five: calc(1.7em + 1.7vw);
+    --font_size_six: calc(2em + 2vw);
+
+    --text_decoration_none: none;
+    --text_decoration_underline: underline;
+
+    --width_img_10: 10%;
+    --width_img_20: 20%;
+    --width_img_30: 30%;
+    --width_img_40: 40%;
+    --width_img_50: 50%;
+    --width_img_60: 60%;
+    --width_img_70: 70%;
+    --width_img_80: 80%;
+    --width_img_90: 90%;
+    --width_img_100: 100%;
 }
 
 a{
-    text-decoration: none;
+    text-decoration: var(--text_decoration_none);
 }
