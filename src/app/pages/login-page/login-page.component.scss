@@ -1,30 +1,56 @@
 @import url(/src/styles.scss);
 
 .bg_pink{
-    background-color: var(--color-principal);
+    background-color: var(--color_first);
 }
-.form_control{
-    border-radius: var(--border-radius);
+.border_radius{
+    border-radius: var(--border_radius_one);
 }
 .mg_cero_color{
     margin: 0%;
-    color: var(--color-black);
+    color: var(--color_black);
 }
 .text_color{
-    color: var(--color-secundary);
+    color: var(--color_second);
 }
 .text_underline{
-    text-decoration: underline;
-    color: var(--color-secundary);
-}
-.font_size{
-    font-size: 20px;
-    color: var(--color-white);
+    text-decoration: var(--text_decoration_underline);
+    color: var(--color_second);
 }
 .btn_primary{
-    background-color: var(--color-buttom);
-    border-color: var(--color-secundary);
+    background-color: var(--color_buttom);
+    border-color: var(--color_second);
+}
+.width_max_svg{
+    width: var(--width_img_60);
+}
+.width_max_img{
+    width: var(--width_img_60);
+}
+.font_size_h1{
+    font-size: var(--font_size_four);
+    font-weight: 400;
+}
+.font_size_h3{
+    font-size: var(--font_size_three);
+}
+.font_size_h6{
+    font-size: var(--font_size_two);
+    font-weight: 400;
+}
+.font_size_input{
+    font-size: var(--font_size_one);
+}
+.font_size_p{
+    font-size: var(--font_size_one);
+}
+.font_size_button{
+    font-size: var(--font_size_two);
+    color: var(--color_white);
+}
+.font_size_label{
+    font-size: var(--font_size_one);
 }
 .btn_primary:hover{
-    background-color: var(--color-secundary);
+    background-color: var(--color_second);
 }
