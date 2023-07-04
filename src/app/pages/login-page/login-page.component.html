@@ -37,27 +37,28 @@
                         <h3 class="font_size_h3">Iniciar Sesión</h3>
                     </div>
                 </div>
-                <form >
+                <form (ngSubmit)="login()" [formGroup] = "formularioLogin">
                     <div class="form-floating mb-3 w-100">
-                        <input type="email" class="form-control border_radius font_size_input" id="floatingInput" placeholder="name@example.com">
-                        <label for="floatingInput" class="font_size_label">Correo Electronico</label>
+                        <input type="email" class="form-control border_radius font_size_input" id="" placeholder="name@example.com" formControlName="email">
+                        <label for="email" class="font_size_label">Correo Electronico</label>
                     </div>
                     <div class="form-floating w-100">
-                        <input type="password" class="form-control border_radius font_size_input" id="floatingPassword" placeholder="Password" aria-labelledby="passwordHelpInline">
-                        <label for="floatingPassword" class="font_size_label">Contraseña</label>
+                        <input type="password" class="form-control border_radius font_size_input" id="" placeholder="Password" aria-labelledby="passwordHelpInline" formControlName="password">
+                        <label for="password" class="font_size_label">Contraseña</label>
+                    </div>
+                    <div class="col-lg-12 align-items-center justify-content-center">
+                        <div class="col-lg-12 py-2 d-flex col-sm-12 justify-content-around">
+                            <!--routerLink="" es la conexion entre paginas-->
+                            <a href="" routerLink="/admin-page-principal"><p class="mg_cero_color font_size_p">¿Olvidaste tu clave?</p></a>
+                            <!--(click)="navegarEntrePaginas()"-->
+                            <a href=""><p class="mg_cero_color font_size_p">Crear una cuenta</p></a>
+                        </div>
+                        <div class="col-lg-12 col-sm-12">
+                            <!--(click) es la action al realizar un click sobre un boton-->
+                            <button type="submit" class="btn btn_primary font_size_button w-100">Iniciar Sesión</button>
+                        </div>
                     </div>
                 </form>
-                <div class="col-lg-12 align-items-center justify-content-center">
-                    <div class="col-lg-12 py-2 d-flex col-sm-12 justify-content-around">
-                        <!--routerLink="" es la conexion entre paginas-->
-                        <a href="" routerLink="/admin-page-principal"><p class="mg_cero_color font_size_p">¿Olvidaste tu clave?</p></a>
-                        <a href=""><p class="mg_cero_color font_size_p">Crear una cuenta</p></a>
-                    </div>
-                    <div class="col-lg-12 col-sm-12">
-                        <!--(click) es la action al realizar un click sobre un boton-->
-                        <button (click)="navegarEntrePaginas()" class="btn btn_primary font_size_button w-100">Iniciar Sesión</button>
-                    </div>
-                </div>
             </div>
             <div class="col-lg-12 text-center w-100 mt-auto">
                 <p class="font_size_p">¿Necesitas ayuda? Contacta con nuestro equipo de soporte <a href="" class="text_underline"><span class="text_color">aquí</span></a></p>
