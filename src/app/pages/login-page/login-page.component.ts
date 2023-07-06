@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup , FormBuilder, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import ImagePath from 'src/app/commons/constants/Image-path';
 import { Login } from 'src/app/entity/Login';
 import { ValidacionLoginService } from 'src/app/service/login-service/validacion-login.service';
 
@@ -12,6 +13,8 @@ import { ValidacionLoginService } from 'src/app/service/login-service/validacion
 export class LoginPageComponent implements OnInit{
 
   formularioLogin:FormGroup;
+
+  imagenLogin = ImagePath.IMG_LOGIN;
 
   constructor (private router: Router, public formulario: FormBuilder, public validacionDatos: ValidacionLoginService){
     this.formularioLogin = this.formulario.group({

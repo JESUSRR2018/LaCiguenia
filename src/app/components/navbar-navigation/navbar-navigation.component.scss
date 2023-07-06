@@ -1,0 +1,19 @@
+@import url(/src/styles.scss);
+
+.bg_pink{
+    background-color: var(--color_first);
+}
+.width_vw{
+    width: 13%;
+}
+.width_vw_img{
+    width: 90%;
+}
+.font_size_h6{
+    font-size: var(--font_size_two);
+    color: var(--color_black);
+    font-weight: 400;
+}
+.width_icon{
+    width: 40%;
+}
