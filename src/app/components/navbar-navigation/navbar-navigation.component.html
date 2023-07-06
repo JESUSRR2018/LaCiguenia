@@ -1,1 +1,30 @@
-<p>navbar-navigation works!</p>
+<nav>
+  <div class="flex-shrink-0 bg_pink min-vh-100 width_vw justify-content-center text-center">
+    <a href="" routerLink="/admin-page-principal">
+      <img [src]="imagenPrincipal" alt="" class="width_vw_img">
+    </a>
+    <ul class="list-unstyled">
+      <hr class="featurette-divider">
+      <li>
+        <a href="">
+          <img [src]="imagenCaja" class="width_icon" alt="">
+          <h6 class="pt-2 font_size_h6">Caja</h6>
+        </a>
+      </li>
+      <hr class="featurette-divider">
+      <li>
+        <a href="">
+          <img [src]="imagenInventario" class="width_icon" alt="">
+          <h6 class="pt-2 font_size_h6">Inventario</h6>
+        </a>  
+      </li>
+      <hr class="featurette-divider">
+      <li>
+        <a href="">
+          <img [src]="imagenVentas" class="width_icon" alt="">
+          <h6 class="pt-2 font_size_h6">Ventas</h6>
+        </a>  
+      </li>
+    </ul>
+  </div>
+</nav>
