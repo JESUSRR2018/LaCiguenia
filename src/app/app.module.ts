@@ -9,6 +9,7 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { NavbarNavigationComponent } from './components/navbar-navigation/navbar-navigation.component';
 import { FooterEndpageComponent } from './components/footer-endpage/footer-endpage.component';
 import { HeaderSectionComponent } from './components/header-section/header-section.component';
+import { SectionOneComponent } from './components/section-one/section-one.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HeaderSectionComponent } from './components/header-section/header-secti
     LoginPageComponent,
     NavbarNavigationComponent,
     FooterEndpageComponent,
-    HeaderSectionComponent
+    HeaderSectionComponent,
+    SectionOneComponent
   ],
   imports: [
     BrowserModule,

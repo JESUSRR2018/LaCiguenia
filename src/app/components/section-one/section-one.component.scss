@@ -1,0 +1,32 @@
+@import url(/src/styles.scss);
+
+.btn_primary{
+    border-color: var(--color_gray_os);
+}
+.font_size_button{
+    color: var(--color_gray_os);
+    font-size: var(--font_size_two);
+    width: var(--width_img_30)
+}
+.m_cero{
+    margin: 0%;
+}
+.font_size_h4{
+    font-size: var(--font_size_two);
+    font-weight: 400;
+}
+.border_color{
+    border: 1px solid;
+    border-radius: 9px;
+    border-color: var(--color_gray_os);
+}
+.font_size_p{
+    font-size: var(--font_size_two);
+    color: var(--color_gray_cl);
+    margin: 0px;
+}
+.font_size_h3{
+    color: var(--color_black);
+    font-size: var(--font_size_two);
+    margin: 0px;
+}
