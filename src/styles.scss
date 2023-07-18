@@ -427,6 +427,12 @@ input, button, select{
     .display_grid_sm{
         display: grid !important;
     }
+    .max_width_100_sm {
+        min-width: 100vw !important;
+    }
+    .max_height_100_sm {
+        min-height: 100vh !important;
+    }
     .col_1_sm{
         width: var(--width_10);
     }
@@ -458,9 +464,9 @@ input, button, select{
         width: var(--width_100);
     }
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 990px) {
     .room{
-        max-width: 740px;
+        max-width: 970px;
     }
     .display_none_md{
         display: none;
@@ -470,6 +476,12 @@ input, button, select{
     }
     .display_grid_md{
         display: grid !important;
+    }
+    .max_width_100_md {
+        min-width: 100vw !important;
+    }
+    .max_height_100_md {
+        min-height: 100vh !important;
     }
     .col_1_md{
         width: var(--width_10);
@@ -502,9 +514,9 @@ input, button, select{
         width: var(--width_100);
     }
 }
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1400px) {
     .room{
-        max-width: 970px;
+        max-width: 1380px;
     }
     .display_none_lg{
         display: none;
@@ -514,6 +526,12 @@ input, button, select{
     }
     .display_grid_lg{
         display: grid !important;
+    }
+    .max_width_100_lg {
+        min-width: 100vw !important;
+    }
+    .max_height_100_lg {
+        min-height: 100vh !important;
     }
     .col_1_lg{
         width: var(--width_10);
@@ -546,9 +564,9 @@ input, button, select{
         width: var(--width_100);
     }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 2000px) {
     .room{
-        max-width: 1180px;
+        max-width: 1980px;
     }
     .display_none_xl{
         display: none;
@@ -558,6 +576,12 @@ input, button, select{
     }
     .display_grid_xl{
         display: grid !important;
+    }
+    .max_width_100_xl {
+        min-width: 100vw !important;
+    }
+    .max_height_100_xl {
+        min-height: 100vh !important;
     }
     .col_1_xl{
         width: var(--width_10);
@@ -590,9 +614,9 @@ input, button, select{
         width: var(--width_100);
     }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 2500px) {
     .room{
-        max-width: 1380px;
+        max-width: 2480px;
     }
     .display_none_xxl{
         display: none;
@@ -602,6 +626,12 @@ input, button, select{
     }
     .display_grid_xxl{
         display: grid !important;
+    }
+    .max_width_100_xxl {
+        min-width: 100vw !important;
+    }
+    .max_height_100_xxl {
+        min-height: 100vh !important;
     }
     .col_1_xxl{
         width: var(--width_10);
