@@ -9,7 +9,9 @@ export const IMG_WHATSAPP = "./assets/imagen/0008.png"
 export const IMG_VENTA_DIA = "./assets/imagen/0009.png" 
 export const IMG_UTILIDAD_DIA = "./assets/imagen/0010.png" 
 export const IMG_GASTOS_DIA = "./assets/imagen/0011.png" 
-export const IMG_FACTURA_DIA = "./assets/imagen/0012.png" 
+export const IMG_FACTURA_DIA = "./assets/imagen/0012.png"
+export const IMG_PROVEEDORES = "./assets/imagen/0013.png" 
+export const IMG_INFORMES = "./assets/imagen/0014.png"  
 
 export default {
     IMG_CAJA,
@@ -23,5 +25,7 @@ export default {
     IMG_VENTA_DIA,
     IMG_UTILIDAD_DIA,
     IMG_FACTURA_DIA,
-    IMG_GASTOS_DIA
+    IMG_GASTOS_DIA,
+    IMG_PROVEEDORES,
+    IMG_INFORMES
 };

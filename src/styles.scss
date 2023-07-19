@@ -414,9 +414,9 @@ input, button, select{
     font-size: var(--font_size_nine);
     color: var(--color_white);
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 790px) {
     .room{
-        max-width: 550px;
+        max-width: 770px;
     }
     .display_none_sm{
         display: none;
@@ -464,9 +464,9 @@ input, button, select{
         width: var(--width_100);
     }
 }
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 791px) and (max-width: 1200px) {
     .room{
-        max-width: 970px;
+        max-width: 1180px;
     }
     .display_none_md{
         display: none;
@@ -514,9 +514,9 @@ input, button, select{
         width: var(--width_100);
     }
 }
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1201px) and (max-width: 2000px) {
     .room{
-        max-width: 1380px;
+        max-width: 1980px;
     }
     .display_none_lg{
         display: none;
@@ -564,9 +564,9 @@ input, button, select{
         width: var(--width_100);
     }
 }
-@media screen and (max-width: 2000px) {
+@media screen and (min-width: 2001px) and (max-width: 3000px) {
     .room{
-        max-width: 1980px;
+        max-width: 2980px;
     }
     .display_none_xl{
         display: none;
@@ -614,9 +614,9 @@ input, button, select{
         width: var(--width_100);
     }
 }
-@media screen and (max-width: 2500px) {
+@media screen and (min-width: 3001px) and (max-width: 5000px) {
     .room{
-        max-width: 2480px;
+        max-width: 4980px;
     }
     .display_none_xxl{
         display: none;

@@ -12,4 +12,6 @@ export class SectionNavbarComponent {
   imagenCaja = Imagen.IMG_CAJA;
   imagenInventario = Imagen.IMG_INVENTARIO;
   imagenVentas = Imagen.IMG_VENTAS;
+  imagenProveedores = Imagen.IMG_PROVEEDORES;
+  imagenInformes = Imagen.IMG_INFORMES;
 }
