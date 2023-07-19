@@ -1,0 +1,10 @@
+@import url(/src/styles.scss);
+
+.btn_primary{
+    background-color: var(--color_white);
+    color: var(--color_black);
+    text-indent: var(--calc_1vw);
+}
+.border_radius{
+    border-radius: var(--border_radius_two);
+}

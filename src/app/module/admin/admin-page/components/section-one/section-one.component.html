@@ -1,1 +1,56 @@
-<p>section-one works!</p>
+<div class="room">
+    <div class="display_flex margin_y_2">
+        <div class="align_center col_6_sm col_4_md col_2_lg col_2_xl col_2_xxl">
+            <h4 class="text_start font_size_h4">Almacenes</h4>
+        </div>
+        <div class="dropdown col_6_sm col_4_md col_3_lg col_3_xl col_3_xxl">
+            <button class="btn btn_primary border dropdown-toggle text_start width_100 height_100" type="button" 
+            data-bs-toggle="dropdown" aria-expanded="false">
+              General
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Otro Almacen</a></li>
+              <li><a class="dropdown-item" href="#">Otro Almacen</a></li>
+              <li><a class="dropdown-item" href="#">Otro Almacen</a></li>
+            </ul>
+          </div>
+    </div>
+    <div class="display_grid_sm display_flex_md display_flex_lg display_flex_xl display_flex_xxl content_between margin_y_2 conten_center">
+        <div class="border border_radius display_flex align_center col_4_md col_2_lg col_2_xl col_2_xxl">
+            <div class="col_4 padding_x_2 padding_y_2">
+                <img [src]="imgVenta" alt="">
+            </div>
+            <div class="col_8 text_center">
+                <p class="font_size_p">Ventas del dia</p>
+                <h3 class="font_size_h3"><span>$</span>0000</h3>
+            </div>
+        </div>
+        <div class="border border_radius display_flex align_center col_4_md col_2_lg col_2_xl col_2_xxl">
+            <div class="col_4 padding_x_2 padding_y_2">
+                <img [src]="imgFactura" alt="">
+            </div>
+            <div class="col_8 text_center">
+                <p class="font_size_p">No. de Facturas</p>
+                <h3 class="font_size_h3"><span>#</span>00</h3>
+            </div>
+        </div>
+        <div class="border border_radius display_flex align_center col_10_sm col_4_md col_2_lg col_2_xl col_2_xxl">
+            <div class="col_4 padding_x_2 padding_y_2">
+                <img [src]="imgGastos" alt="">
+            </div>
+            <div class="col_8 text_center">
+                <p class="font_size_p">Gastos del dia</p>
+                <h3 class="font_size_h3"><span>$</span>0000</h3>
+            </div>
+        </div>
+        <div class="border border_radius display_flex align_center col_10_sm col_4_md col_2_lg col_2_xl col_2_xxl">
+            <div class="col_4 padding_x_2 padding_y_2">
+                <img [src]="imgUtilidad" alt="">
+            </div>
+            <div class="col_8 text_center">
+                <p class="font_size_p">Utilidad del dia</p>
+                <h3 class="font_size_h3"><span>$</span>0000</h3>
+            </div>
+        </div>
+    </div>
+</div>

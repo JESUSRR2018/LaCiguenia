@@ -3,6 +3,7 @@
 :root{
     --color_black: #000000;
     --color_white: #ffffff;
+    --color_gray: #E7E5E5;
     --color_gray_cl: #a5a5a5;
     --color_gray_md: #7e7e7e;
     --color_gray_os: #3f3f3f;
@@ -145,6 +146,9 @@ input, button, select{
 }
 .display_none{
     display: none !important;
+}
+.display_column{
+    display: block !important;
 }
 .display_flex{
     display: flex !important;
@@ -393,6 +397,9 @@ input, button, select{
 .font_size_h6{
     font-size: var(--font_size_four);
 }
+.font_size_p{
+    font-size: var(--font_size_five);
+}
 .line_divider{
     border-top: 1px solid var(--color_gray_os);
 }
@@ -417,6 +424,9 @@ input, button, select{
 @media screen and (max-width: 790px) {
     .room{
         max-width: 770px;
+    }
+    .display_column_sm{
+        display: block;
     }
     .display_none_sm{
         display: none;
@@ -467,6 +477,9 @@ input, button, select{
 @media screen and (min-width: 791px) and (max-width: 1200px) {
     .room{
         max-width: 1180px;
+    }
+    .display_column_md{
+        display: block;
     }
     .display_none_md{
         display: none;
