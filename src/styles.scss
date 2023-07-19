@@ -425,6 +425,17 @@ input, button, select{
     .room{
         max-width: 770px;
     }
+    .content_between_sm{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .font_size_p_sm{
+        font-size: var(--font_size_ten);
+    }
+    .font_size_h4_sm{
+        font-size: var(--font_size_eleven);
+    }
     .display_column_sm{
         display: block;
     }
@@ -477,6 +488,10 @@ input, button, select{
 @media screen and (min-width: 791px) and (max-width: 1200px) {
     .room{
         max-width: 1180px;
+    }
+    .content_between_md{
+        display: flex;
+        justify-content: space-between;
     }
     .display_column_md{
         display: block;
@@ -531,6 +546,10 @@ input, button, select{
     .room{
         max-width: 1980px;
     }
+    .content_between_lg{
+        display: flex;
+        justify-content: space-between;
+    }
     .display_none_lg{
         display: none;
     }
@@ -581,6 +600,10 @@ input, button, select{
     .room{
         max-width: 2980px;
     }
+    .content_between_xl{
+        display: flex;
+        justify-content: space-between;
+    }
     .display_none_xl{
         display: none;
     }
@@ -630,6 +653,10 @@ input, button, select{
 @media screen and (min-width: 3001px) and (max-width: 5000px) {
     .room{
         max-width: 4980px;
+    }
+    .content_between_xxl{
+        display: flex;
+        justify-content: space-between;
     }
     .display_none_xxl{
         display: none;
