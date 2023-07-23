@@ -2,13 +2,25 @@
 
 .btn_primary{
     background-color: var(--color_white);
-    color: var(--color_black);
+    color: var(--color_gray_cl);
+    font-weight: var(--font_weight_400);
+    font-size: var(--font_size_seven);
     text-indent: var(--calc_1vw);
 }
 .btn_primary:hover{
     background-color: var(--color_gray);
+    font-size: var(--font_size_seven);
+    color: var(--color_black);
+}
+.btn_primary:focus{
+    background-color: var(--color_white);
+    font-size: var(--font_size_seven);
     color: var(--color_black);
 }
 .border_radius{
     border-radius: var(--border_radius_two);
+}
+.bg_color{
+    color: var(--color_gray_cl);
+    font-weight: var(--font_weight_400);
 }
