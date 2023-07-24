@@ -6,12 +6,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { SectionOneComponent } from './admin-page/components/section-one/section-one.component';
 import { SectionTwoComponent } from './admin-page/components/section-two/section-two.component';
 import { ComponentModule } from 'src/app/component/component.module';
+import { SectionThreeComponent } from './admin-page/components/section-three/section-three.component';
+import { SectionFourComponent } from './admin-page/components/section-four/section-four.component';
 
 @NgModule({
   declarations: [
     AdminPageComponent,
     SectionOneComponent,
-    SectionTwoComponent
+    SectionTwoComponent,
+    SectionThreeComponent,
+    SectionFourComponent
   ],
   imports: [
     CommonModule,
