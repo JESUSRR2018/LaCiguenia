@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import Imagen from 'src/app/shared/imagen/Imagen';
 
 @Component({
   selector: 'app-section-two',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./section-two.component.scss']
 })
 export class SectionTwoComponent {
-
+  imagenPrueba = Imagen.IMG_NO_ENCONTRADA;
 }

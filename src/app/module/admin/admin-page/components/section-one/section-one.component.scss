@@ -26,7 +26,7 @@
     font-weight: var(--font_weight_400);
 }
 .hover_div:hover{
-    background-color: #fafafa;
+    background-color: var(--color_white_cl);
     border-color: var(--color_gray_cl) !important;
 }
 .hover_div:hover p{
