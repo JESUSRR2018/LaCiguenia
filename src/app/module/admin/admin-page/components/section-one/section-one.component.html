@@ -11,16 +11,16 @@
           </div>
     </div>
     <div class="display_grid_sm display_grid_md display_flex_lg display_flex_xl display_flex_xxl content_between_lg content_between_xl content_between_xxl margin_y_2 conten_center">
-        <div class="border border_radius display_flex align_center col_13_sm col_13_md col_3 margin_y_1">
+        <div class="border border_radius display_flex align_center col_13_sm col_13_md col_3 margin_y_1 hover_div">
             <div class="col_5 col_4_sm padding_x_2 padding_y_2 text_center">
                 <img [src]="imgVenta" alt="">
             </div>
             <div class="col_8 col_9_sm text_center">
                 <p class="font_size_p_sm font_size_h4_md font_size_h5 bg_color">Ventas del dia</p>
-                <h3 class="font_size_h4 font_size_h4_sm font_size_h4_md"><span>$</span>0000</h3>
+                <h3 class="font_size_h4 font_size_h4_sm font_size_h4_md"><span>$</span>{{ventasDelDia.valor}}</h3>
             </div>
         </div>
-        <div class="border border_radius display_flex align_center col_13_sm col_13_md col_3 margin_y_1">
+        <div class="border border_radius display_flex align_center col_13_sm col_13_md col_3 margin_y_1 hover_div">
             <div class="col_5 col_4_sm padding_x_2 padding_y_2 text_center">
                 <img [src]="imgFactura" alt="">
             </div>
@@ -29,7 +29,7 @@
                 <h3 class="font_size_h4 font_size_h4_sm"><span>#</span>00</h3>
             </div>
         </div>
-        <div class="border border_radius display_flex align_center col_13_sm col_13_md col_3 margin_y_1">
+        <div class="border border_radius display_flex align_center col_13_sm col_13_md col_3 margin_y_1 hover_div">
             <div class="col_5 col_4_sm padding_x_2 padding_y_2 text_center">
                 <img [src]="imgGastos" alt="">
             </div>
@@ -38,7 +38,7 @@
                 <h3 class="font_size_h4 font_size_h4_sm"><span>$</span>0000</h3>
             </div>
         </div>
-        <div class="border border_radius display_flex align_center col_13_sm col_13_md col_3 margin_y_1">
+        <div class="border border_radius display_flex align_center col_13_sm col_13_md col_3 margin_y_1 hover_div">
             <div class="col_5 col_4_sm padding_x_2 padding_y_2 text_center">
                 <img [src]="imgUtilidad" alt="">
             </div>
