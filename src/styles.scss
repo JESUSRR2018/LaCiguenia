@@ -434,19 +434,25 @@ input, button, select{
     color: var(--color_white);
 }
 @media screen and (max-width: 790px) {
-    .room{
-        max-width: 770px;
+    .room_sm{
+        width: var(--width_100);
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .content_between_sm{
         display: flex;
         justify-content: space-between;
     }
-
     .font_size_p_sm{
         font-size: var(--font_size_ten);
     }
     .font_size_h4_sm{
         font-size: var(--font_size_eleven);
+    }
+    .font_size_h5_md{
+        font-size: var(--font_size_seven);
     }
     .display_column_sm{
         display: block;
@@ -507,8 +513,12 @@ input, button, select{
     }
 }
 @media screen and (min-width: 791px) and (max-width: 1200px) {
-    .room{
-        max-width: 1180px;
+    .room_md{
+        width: var(--width_100);
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .content_between_md{
         display: flex;
@@ -576,8 +586,12 @@ input, button, select{
     }
 }
 @media screen and (min-width: 1201px) and (max-width: 2000px) {
-    .room{
-        max-width: 1980px;
+    .room_lg{
+        width: var(--width_100);
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .content_between_lg{
         display: flex;
@@ -639,8 +653,12 @@ input, button, select{
     }
 }
 @media screen and (min-width: 2001px) and (max-width: 3000px) {
-    .room{
-        max-width: 2980px;
+    .room_xl{
+        width: var(--width_100);
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .content_between_xl{
         display: flex;
@@ -702,8 +720,12 @@ input, button, select{
     }
 }
 @media screen and (min-width: 3001px) and (max-width: 5000px) {
-    .room{
-        max-width: 4980px;
+    .room_xxl{
+        width: var(--width_100);
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-right: auto;
+        margin-left: auto;
     }
     .content_between_xxl{
         display: flex;

@@ -12,7 +12,11 @@ export const IMG_GASTOS_DIA = "./assets/imagen/0011.png";
 export const IMG_FACTURA_DIA = "./assets/imagen/0012.png";
 export const IMG_PROVEEDORES = "./assets/imagen/0013.png";
 export const IMG_INFORMES = "./assets/imagen/0014.png";
-export const IMG_NO_ENCONTRADA = "./assets/imagen/0015.png" 
+export const IMG_NO_ENCONTRADA = "./assets/imagen/0015.png";
+export const IMG_VENTA_TOTAL = "./assets/imagen/0016.png";
+export const IMG_GASTOS_TOTAL = "./assets/imagen/0017.png";
+export const IMG_FACTURA_TOTAL = "./assets/imagen/0018.png";
+export const IMG_UTILIDAD_TOTAL = "./assets/imagen/0019.png";
 
 export default {
     IMG_CAJA,
@@ -29,5 +33,9 @@ export default {
     IMG_GASTOS_DIA,
     IMG_PROVEEDORES,
     IMG_INFORMES,
-    IMG_NO_ENCONTRADA
+    IMG_NO_ENCONTRADA,
+    IMG_VENTA_TOTAL,
+    IMG_FACTURA_TOTAL,
+    IMG_GASTOS_TOTAL,
+    IMG_UTILIDAD_TOTAL
 };
