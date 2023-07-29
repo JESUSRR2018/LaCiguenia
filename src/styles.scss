@@ -441,6 +441,9 @@ input, button, select{
         margin-right: auto;
         margin-left: auto;
     }
+    .text_indent{
+        text-indent: 3%;
+    }
     .content_between_sm{
         display: flex;
         justify-content: space-between;
@@ -520,6 +523,9 @@ input, button, select{
         margin-right: auto;
         margin-left: auto;
     }
+    .text_indent{
+        text-indent: 3%;
+    }
     .content_between_md{
         display: flex;
         justify-content: space-between;
@@ -541,6 +547,9 @@ input, button, select{
     }
     .max_height_100_md {
         min-height: 100vh !important;
+    }
+    .font_size_h5_md{
+        font-size: var(--font_size_seven);
     }
     .font_size_h4_md{
         font-size: var(--font_size_eleven);
@@ -592,6 +601,9 @@ input, button, select{
         padding-left: 5%;
         margin-right: auto;
         margin-left: auto;
+    }
+    .text_indent{
+        text-indent: 6%;
     }
     .content_between_lg{
         display: flex;
@@ -660,6 +672,9 @@ input, button, select{
         margin-right: auto;
         margin-left: auto;
     }
+    .text_indent{
+        text-indent: 6%;
+    }
     .content_between_xl{
         display: flex;
         justify-content: space-between;
@@ -726,6 +741,9 @@ input, button, select{
         padding-left: 5%;
         margin-right: auto;
         margin-left: auto;
+    }
+    .text_indent{
+        text-indent: 6%;
     }
     .content_between_xxl{
         display: flex;
