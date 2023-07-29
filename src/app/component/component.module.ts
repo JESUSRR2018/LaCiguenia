@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SectionHeaderComponent } from './section-header/section-header.component';
 import { SectionNavbarComponent } from './section-navbar/section-navbar.component';
 import { MobileSectionNavbarComponent } from './mobile-section-navbar/mobile-section-navbar.component';
+import { ComponentRoutingModule } from './component-routing.module';
 
 
 
@@ -13,7 +14,8 @@ import { MobileSectionNavbarComponent } from './mobile-section-navbar/mobile-sec
     MobileSectionNavbarComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ComponentRoutingModule
   ],
   exports: [
     SectionHeaderComponent,
