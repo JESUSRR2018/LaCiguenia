@@ -17,6 +17,8 @@ export const IMG_VENTA_TOTAL = "./assets/imagen/0016.png";
 export const IMG_GASTOS_TOTAL = "./assets/imagen/0017.png";
 export const IMG_FACTURA_TOTAL = "./assets/imagen/0018.png";
 export const IMG_UTILIDAD_TOTAL = "./assets/imagen/0019.png";
+export const IMG_APERTURA_TOTAL_VENTAS = "./assets/imagen/0020.png";
+export const IMG_APERTURA_ANTERIOR = "./assets/imagen/0021.png";
 
 export default {
     IMG_CAJA,
@@ -37,5 +39,7 @@ export default {
     IMG_VENTA_TOTAL,
     IMG_FACTURA_TOTAL,
     IMG_GASTOS_TOTAL,
-    IMG_UTILIDAD_TOTAL
+    IMG_UTILIDAD_TOTAL,
+    IMG_APERTURA_TOTAL_VENTAS,
+    IMG_APERTURA_ANTERIOR
 };
