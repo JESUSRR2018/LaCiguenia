@@ -441,6 +441,22 @@ input, button, select{
         margin-right: auto;
         margin-left: auto;
     }
+    .margin_x_1_sm{
+        margin-left: var(--calc_1vw);
+        margin-right: var(--calc_1vw);
+    }
+    .margin_y_1_sm{
+        margin-top: var(--calc_1vh);
+        margin-bottom: var(--calc_1vh);
+    }
+    .margin_y_2_sm{
+        margin-top: var(--calc_2vh);
+        margin-bottom: var(--calc_2vh);
+    }
+    .margin_y_3_sm{
+        margin-top: var(--calc_3vh);
+        margin-bottom: var(--calc_3vh);
+    }
     .text_indent{
         text-indent: 3%;
     }
@@ -513,6 +529,9 @@ input, button, select{
     }
     .col_13_sm{
         width: 100%;
+    }
+    .btn_primary_sm{
+        font-size: var(--font_size_nine) !important;
     }
 }
 @media screen and (min-width: 791px) and (max-width: 1200px) {
