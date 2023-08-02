@@ -140,6 +140,11 @@ input, button, select{
     font-weight: var(--font_weight_500); 
     text-decoration: var(--decoration_none);
 }
+input:focus {
+    outline: none;
+    border-color: var(--color_blue_oc);
+    box-shadow: 0 0 8px var(--color_blue_md);
+  }
 .room{
     width: var(--width_100);
     padding-right: 5%;

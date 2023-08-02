@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-section-one',
@@ -15,7 +16,7 @@ export class SectionOneComponent {
   fecha: string = new Date().toISOString().slice(0, 10);;
 
 
-  constructor(private formulario: FormBuilder){
+  constructor(private formulario: FormBuilder, private router: Router){
     this.formularioAperturaCaja = this.formulario.group({
       fecha: new FormControl(this.fecha, [Validators.required]),
       almacen: new FormControl(this.almacen, [Validators.required]),
@@ -32,5 +33,8 @@ export class SectionOneComponent {
       total: this.total,
       cajaMenor: this.cajaMenor
     });
+    if (this.formularioAperturaCaja.valid){
+      this.router.navigate(['/login-laciguenia/pago-page-principal']);
+    }
   }
 }
