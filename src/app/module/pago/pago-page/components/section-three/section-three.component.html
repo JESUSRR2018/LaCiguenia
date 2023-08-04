@@ -1,1 +1,60 @@
-<p>section-three works!</p>
+<div class="height_100 display_grid">
+    <div class="diplay_flex padding_x_2 bg_color border_bottom">
+        <button type="button" class="btn btn-primary col_10 margin_y_3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Cliente
+        </button>
+    </div>
+    <div class="dimension_center">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Producto</th>
+                <th scope="col">Cant.</th>
+                <th scope="col">Total</th>
+                <th scope="col">Subtotal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{{dato}}</td>
+                <td class="text_center">{{cantidad}}</td>
+                <td class="text_center">{{total}}</td>
+                <td class="text_center">{{subtotal}}</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <div class="display_grid col_13 room">
+        <div class="col_13 display_flex border_top">
+            <div class="col_6 text_star">
+                <p class="color_font">SUBTOTAL</p>
+            </div>
+            <div class="col_7 text_end">
+                <p class="color_gris">$ 1000</p>
+            </div>
+        </div>
+        <div class="col_13 display_flex border_top">
+            <div class="col_6 text_star">
+                <p class="color_font">IVA</p>
+            </div>
+            <div class="col_7 text_end">
+                <p class="color_gris">$ 1000</p>
+            </div>
+        </div>
+        <div class="col_13 display_flex border_top">
+            <div class="col_6 text_star">
+                <p class="color_font">TOTAL</p>
+            </div>
+            <div class="col_7 text_end">
+                <p class="color_font_black">$ 1000</p>
+            </div>
+        </div>
+    </div>
+    <div class="content_center padding_x_2">
+        <button type="button" class="btn btn_primary col_7 margin_y_3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Pagar
+        </button>
+    </div>
+
+
+</div>

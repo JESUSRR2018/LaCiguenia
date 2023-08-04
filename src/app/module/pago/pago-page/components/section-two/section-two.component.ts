@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import Imagen from 'src/app/shared/imagen/Imagen';
 
 @Component({
@@ -11,7 +11,7 @@ export class SectionTwoComponent {
   nombreProducto: string = "Nombre Producto";
   valorProducto: number = 0;
 
-  filas = [1, 2, 3, 4, 5];
+  filas = [1, 2, 3, 4];
 
   productos = [
     { nombre: this.nombreProducto, valor: this.valorProducto },
@@ -19,4 +19,14 @@ export class SectionTwoComponent {
     { nombre: this.nombreProducto, valor: this.valorProducto },
     { nombre: this.nombreProducto, valor: this.valorProducto }
   ];
+
+
+  @Output() eventoHijo = new EventEmitter<string>();
+
+  emitirEvento() {
+    console.log("Prueba Hijo Envio Datos: " + this.nombreProducto);
+    this.eventoHijo.emit(this.nombreProducto);
+  }
+
+
 }

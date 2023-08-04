@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class PagoPageComponent {
 
+  valorDesdePadre!: string;
+
+  manejarEventoHijo(mensaje: string) {
+    console.log("Prueba Padre: " + mensaje);
+    this.valorDesdePadre = mensaje;
+  }
+
+
 }
