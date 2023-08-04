@@ -1,0 +1,41 @@
+@import url(/src/styles.scss);
+
+.btn-primary{
+    background-color: var(--color_white);
+    border-color: var(--color_gray_md);
+    color: var(--color_gray_md);
+    text-align: start;
+    text-indent: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.btn-primary:hover{
+    color: var(--color_black);
+}
+.btn-primary:focus{
+    background-color: var(--color_white_cl);
+    color: var(--color_black);
+}
+.bg_color{
+    background-color: var(--color_pink);
+}
+.border_bottom{
+    border-bottom: 1px solid;
+    border-color: var(--color_gray_md) !important;
+}
+.dimension_center{
+    height: calc(18em + 18vh);
+}
+.color_font{
+    color: var(--color_gray_os);
+}
+.color_gris{
+    color: var(--color_gray_md);
+}
+.color_font_black{
+    color: var(--color_black);
+}
+.border_top{
+    border-top: 1px solid;
+    border-color: var(--color_gray_md);
+}
