@@ -39,3 +39,36 @@
     border-top: 1px solid;
     border-color: var(--color_gray_md);
 }
+.font_color_total{
+    color: var(--color_blue_oc);
+}
+.form-select:focus{
+    outline: none;
+    border-color: var(--color_blue_oc);
+    box-shadow: 0 0 8px var(--color_blue_md);
+}
+.font_bottom_p{
+    font-size: var(--font_size_six) !important;
+}
+.padding_y_1{
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+}
+.margin_top{
+    margin-top: 3%;
+}
+.btn_close{
+    color: var(--color_gray_os);
+    border-color: var(--color_gray_md);
+    background-color: var(--color_white_cl);
+}
+.btn_close:hover{
+    color: var(--color_black);
+    border-color: var(--color_black);
+    background-color: var(--color_white_cl);
+}
+.bg_input:focus{
+    outline: none;
+    border-color: var(--color_gray_md) !important;
+    box-shadow: 0 0 8px var(--color_white_cl) !important;
+}
