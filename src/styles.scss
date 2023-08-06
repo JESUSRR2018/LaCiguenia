@@ -547,6 +547,9 @@ input:focus {
         margin-right: auto;
         margin-left: auto;
     }
+    .dimension_center_md{
+        height: calc(10em + 30vh);
+    }
     .text_indent{
         text-indent: 3%;
     }
@@ -625,6 +628,9 @@ input:focus {
         padding-left: 5%;
         margin-right: auto;
         margin-left: auto;
+    }
+    .dimension_center_lg{
+        height: calc(20em + 30vh);
     }
     .text_indent{
         text-indent: 6%;
