@@ -11,7 +11,7 @@ export class SectionTwoComponent {
   nombreProducto: string = "Nombre Producto";
   valorProducto: number = 0;
 
-  filas = [1, 2, 3, 4];
+  filas = [1, 2, 3, 4, 5];
 
   productos = [
     { nombre: this.nombreProducto, valor: this.valorProducto },
