@@ -140,6 +140,11 @@ input, button, select{
     font-weight: var(--font_weight_500); 
     text-decoration: var(--decoration_none);
 }
+input:focus {
+    outline: none;
+    border-color: var(--color_blue_oc);
+    box-shadow: 0 0 8px var(--color_blue_md);
+}
 .room{
     width: var(--width_100);
     padding-right: 5%;
@@ -441,6 +446,25 @@ input, button, select{
         margin-right: auto;
         margin-left: auto;
     }
+    .margin_x_1_sm{
+        margin-left: var(--calc_1vw);
+        margin-right: var(--calc_1vw);
+    }
+    .margin_y_1_sm{
+        margin-top: var(--calc_1vh);
+        margin-bottom: var(--calc_1vh);
+    }
+    .margin_y_2_sm{
+        margin-top: var(--calc_2vh);
+        margin-bottom: var(--calc_2vh);
+    }
+    .margin_y_3_sm{
+        margin-top: var(--calc_3vh);
+        margin-bottom: var(--calc_3vh);
+    }
+    .text_indent{
+        text-indent: 3%;
+    }
     .content_between_sm{
         display: flex;
         justify-content: space-between;
@@ -511,6 +535,9 @@ input, button, select{
     .col_13_sm{
         width: 100%;
     }
+    .btn_primary_sm{
+        font-size: var(--font_size_nine) !important;
+    }
 }
 @media screen and (min-width: 791px) and (max-width: 1200px) {
     .room_md{
@@ -519,6 +546,12 @@ input, button, select{
         padding-left: 5%;
         margin-right: auto;
         margin-left: auto;
+    }
+    .dimension_center_md{
+        height: calc(10em + 30vh);
+    }
+    .text_indent{
+        text-indent: 3%;
     }
     .content_between_md{
         display: flex;
@@ -541,6 +574,9 @@ input, button, select{
     }
     .max_height_100_md {
         min-height: 100vh !important;
+    }
+    .font_size_h5_md{
+        font-size: var(--font_size_seven);
     }
     .font_size_h4_md{
         font-size: var(--font_size_eleven);
@@ -592,6 +628,12 @@ input, button, select{
         padding-left: 5%;
         margin-right: auto;
         margin-left: auto;
+    }
+    .dimension_center_lg{
+        height: calc(20em + 30vh);
+    }
+    .text_indent{
+        text-indent: 6%;
     }
     .content_between_lg{
         display: flex;
@@ -660,6 +702,9 @@ input, button, select{
         margin-right: auto;
         margin-left: auto;
     }
+    .text_indent{
+        text-indent: 6%;
+    }
     .content_between_xl{
         display: flex;
         justify-content: space-between;
@@ -726,6 +771,9 @@ input, button, select{
         padding-left: 5%;
         margin-right: auto;
         margin-left: auto;
+    }
+    .text_indent{
+        text-indent: 6%;
     }
     .content_between_xxl{
         display: flex;
